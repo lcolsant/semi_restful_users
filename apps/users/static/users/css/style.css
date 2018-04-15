@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: Arial;
+    
+}
+
+table {
+    border: 1px solid black;
+}
+tr:nth-child(even) {
+    background-color: #CCC;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFF;
+}
+td{
+    width: 100px;
+}
+
+th {
+    text-align: left;
+}
+
+#submit{
+    border: 1px solid blue;
+    border-radius: 4px;
+    color: green;
+    width: 50px;
+    height: 20px;
+}
